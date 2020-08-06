@@ -4,7 +4,7 @@ This repository contains a suite of matlab scripts that implement an analytical 
 Files in the repository:
 1. "PredictDischargeCapacity_AnalyticalModel.m" calculates the normalized galvanostatic discharge capacity of battery cells based on input cell parameters and discharge current density. 
 1. "NMC_Graphite_CellParameters.m" provides an example of the Matlab structure array that defines the cell parameters used by "PredictDischargeCapacity_AnalyticalModel".
-1. "SpecificCapacity_ContourPlot.m" provides an applicaiton example of the analytical model by using it to make contour plots of the cell-level specific capacity of NMC half cells and NMC/Graphite full cells at 1C discharge in the parameter space of cathode thickness and porosity. 
+1. "SpecificCapacity_ContourPlot.m" provides an applicaiton example of the analytical model by using it to make contour plots of the cell-level specific capacity of NMC half cells and NMC/Graphite full cells at 1C discharge in the parameter space of cathode thickness and porosity. This script calls "PredictDischargeCapacity_AnalyticalModel" and "NMC_Graphite_CellParameters". 
 
 Authors:
 Fan Wang and Ming Tang, 
