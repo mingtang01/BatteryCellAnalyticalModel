@@ -1,5 +1,5 @@
 # BatteryCellAnalyticalModel
-This repository contains a suite of matlab scripts that implement an analytical model for predicting the rate performance of battery cells, which is described in the following paper: "_A Quantitative Analytical Model for Predicting and Optimizing the Rate Performance of Battery Cells_", Fan Wang and Ming Tang, [arXiv:2004.10707](https://arxiv.org/abs/2004.10707) (2020). 
+This repository contains a suite of matlab scripts that implement an analytical model for predicting the rate performance of battery cells, which is described in the following paper: "_A Quantitative Analytical Model for Predicting and Optimizing the Rate Performance of Battery Cells_", Fan Wang and Ming Tang, Cell Reports Physical Science 1, 100192 (2020). https://doi.org/10.1016/j.xcrp.2020.100192   
 
 Files in the repository:
 1. "PredictDischargeCapacity_AnalyticalModel.m" calculates the normalized galvanostatic discharge capacity of battery cells based on input cell parameters and discharge current density. 
